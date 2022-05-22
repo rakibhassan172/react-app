@@ -1,0 +1,31 @@
+.form {
+    position: absolute;
+    top: 130px;
+    right: 300px;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    height: 264px;
+    justify-content: center;
+    z-index: 100;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.form form {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 145px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+.form input, select {
+    width: 80%;
+    height: 30px;
+    margin: 0px auto;
+}
